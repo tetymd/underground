@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'rooms/index'
+  get 'rooms/new'
+  get 'rooms/show'
   get 'threads/index'
   get 'threads/show'
   get 'threads/new'
