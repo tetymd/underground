@@ -10,3 +10,8 @@ Room.create(
   name: :example,
   description: :example
 )
+
+User.create(
+  name: :demo,
+  password: 'demodemo'
+)
