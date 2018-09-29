@@ -1,6 +1,11 @@
-<h1>Welcome to UnderGround!</h1>
+<h1>あんだーぐらうんど</h1>
+
+<%= link_to 'ルーム一覧', controller: :rooms, action: :index %>
+<%= link_to 'ルーム作成', controller: :rooms, action: :new %><br>
 
 <% @rooms.each do |room| %>
-<%= room.name %>
-<%= room.description %>
+  <div class="room-home">
+  <%= room.name %><br>
+  <%= room.description %>
+  </div><br>
 <% end %>
