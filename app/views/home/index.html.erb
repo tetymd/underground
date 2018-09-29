@@ -1,1 +1,6 @@
 <h1>Welcome to UnderGround!</h1>
+
+<% @rooms.each do |room| %>
+<%= room.name %>
+<%= room.description %>
+<% end %>
